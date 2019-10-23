@@ -1,9 +1,22 @@
 <ion-header>
   <ion-toolbar>
+      <ion-buttons slot="start">
+          <ion-back-button defaultHref="home"></ion-back-button>
+        </ion-buttons>
     <ion-title>about</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
 
+  <ion-grid>
+    <ion-row>
+      <ion-col size="5">
+       <p>Hai!! My name is {{name}}.</p>
+        <p> You can call me {{nickname}}.</p>
+        <p>I am {{age}}years old. Nice to meet you:)</p> 
+      </ion-col>
+   
+    </ion-row>
+   </ion-grid>
 </ion-content>
